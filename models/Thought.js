@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
 
 function formatDate(date) {
-    return date.toLocaleString(); // You can customize this format as needed
+    return date.toLocaleString(); 
 }
 // Schema to create Thought model
 const thoughtSchema = new Schema(

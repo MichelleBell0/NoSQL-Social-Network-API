@@ -1,7 +1,7 @@
 const { Schema, Types } = require('mongoose');
 
 function formatDate(date) {
-    return date.toLocaleString(); // You can customize this format as needed
+    return date.toLocaleString();
 }
 
 const reactionSchema = new Schema(
